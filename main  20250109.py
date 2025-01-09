@@ -51,3 +51,5 @@ while(l<=100):
 
 #todo Aufgabe 5
 
+with open("persons.txt", mode="r", encoding="utf-8") as f:
+    print(f.readlines()[0:5])
